@@ -1,12 +1,832 @@
 version: 2
 updates:
 - package-ecosystem: maven
-  directory: "/guide-arquillian-managed/finish"
+  directory: /guide-rest-intro/start
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
 - package-ecosystem: maven
-  directory: "/guide-arquillian-managed/start"
+  directory: /guide-rest-intro/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-intro/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-openshift/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-openshift/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-openshift/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-openshift/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-openshift/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-openshift/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-bean-validation/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-bean-validation/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-security-intro/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-security-intro/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-jpa-intro/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-jpa-intro/start/frontendUI
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-jpa-intro/start/backendServices
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-jpa-intro/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-jpa-intro/finish/frontendUI
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-jpa-intro/finish/backendServices
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-rest-client-angularjs/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-rest-client-angularjs/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-sessions/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-sessions/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-getting-started/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-getting-started/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-opentracing/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-opentracing/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-opentracing/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-opentracing/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-opentracing/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-opentracing/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-rest-hateoas/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-rest-hateoas/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-arquillian-managed/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-arquillian-managed/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-rest-client-java/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-rest-client-java/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-fallback/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-fallback/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-rest-client-angular/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-rest-client-angular/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-containerize/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-containerize/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-containerize/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-containerize/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-containerize/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-containerize/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-google/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-google/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-google/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-google/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-google/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-google/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-reactive-messaging/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-reactive-messaging/start/models
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-reactive-messaging/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-reactive-messaging/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-reactive-messaging/finish/models
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-reactive-messaging/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-reactive-messaging/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-multimodules/start/jar
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-multimodules/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-multimodules/start/ear
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-multimodules/start/war
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-multimodules/finish/jar
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-multimodules/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-multimodules/finish/ear
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-maven-multimodules/finish/war
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-ibm/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-ibm/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-ibm/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-ibm/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-ibm/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-ibm/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-intro/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-intro/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-intro/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-intro/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-intro/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-intro/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-metrics/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-metrics/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-config/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-config/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microshed-testing/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microshed-testing/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-config/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-config/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-config/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-config/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-config/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-config/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/start/models
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/start/job
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/start/gateway
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/finish/models
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/finish/job
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-rest-client-async/finish/gateway
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-aws/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-aws/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-aws/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-aws/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-aws/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-aws/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-docker/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-docker/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-okd/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-okd/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-okd/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-okd/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-okd/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-okd/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-istio-intro/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-istio-intro/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-openapi/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-openapi/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-jwt/start/resources
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-jwt/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-jwt/start/frontendUI
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-jwt/start/backendServices
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-jwt/finish/resources
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-jwt/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-jwt/finish/frontendUI
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-jwt/finish/backendServices
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-reactive-service-testing/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-reactive-service-testing/start/models
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-reactive-service-testing/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-reactive-service-testing/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-reactive-service-testing/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-reactive-service-testing/finish/models
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-reactive-service-testing/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-reactive-service-testing/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-istio-retry-fallback/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-istio-retry-fallback/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-istio-retry-fallback/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-istio-retry-fallback/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-istio-retry-fallback/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-istio-retry-fallback/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cdi-intro/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cdi-intro/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cors/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cors/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-health/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-health/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-health/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-health/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-health/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-kubernetes-microprofile-health/finish/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-spring-boot/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-spring-boot/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-health/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-microprofile-health/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-azure/start
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-azure/start/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-azure/start/inventory
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-azure/finish
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-azure/finish/system
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: maven
+  directory: /guide-cloud-azure/finish/inventory
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
