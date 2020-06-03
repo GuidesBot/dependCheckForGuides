@@ -1,12 +1,12 @@
 version: 2
 updates:
 - package-ecosystem: maven
-  directory: "/dependCheckForGuides/tree/master/guide-arquillian-managed/finish"
+  directory: "/guide-arquillian-managed/finish"
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
 - package-ecosystem: maven
-  directory: "/dependCheckForGuides/tree/master/guide-arquillian-managed/start"
+  directory: "/guide-arquillian-managed/start"
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
