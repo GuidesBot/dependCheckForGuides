@@ -1,4 +1,5 @@
 version: 2
+allowed_updates: 200
 updates:
 - package-ecosystem: maven
   directory: /guide-rest-intro/start
