@@ -1,0 +1,8 @@
+version: 2
+allowed_updates: 200
+updates:
+- package-ecosystem: maven
+  directory: /
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
