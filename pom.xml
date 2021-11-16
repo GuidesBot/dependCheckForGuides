@@ -32,6 +32,7 @@
         <module>guide-maven-multimodules</module>
         <module>guide-microprofile-config</module>
         <module>guide-microprofile-fallback</module>
+        <module>guide-microprofile-graphql</module>
         <module>guide-microprofile-health</module>
         <module>guide-microprofile-istio-retry-fallback</module>
         <module>guide-microprofile-jwt</module>
@@ -47,6 +48,7 @@
         <module>guide-microshed-testing</module>
         <module>guide-mongodb-intro</module>
         <module>guide-okd</module>
+        <module>guide-openshift-codeready-containers</module>
         <module>guide-reactive-messaging-sse</module>
         <module>guide-reactive-rest-client</module>
         <module>guide-reactive-service-testing</module>
