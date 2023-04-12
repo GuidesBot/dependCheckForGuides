@@ -24,12 +24,16 @@
         <module>guide-docker</module>
         <module>guide-getting-started</module>
         <module>guide-gradle-intro</module>
+        <module>guide-graphql-client</module>
+        <module>guide-grpc-intro</module>
         <module>guide-istio-intro</module>
+        <module>guide-jakarta-websocket</module>
         <module>guide-jpa-intro</module>
         <module>guide-kubernetes-intro</module>
         <module>guide-kubernetes-microprofile-config</module>
         <module>guide-kubernetes-microprofile-health</module>
         <module>guide-liberty-deep-dive</module>
+        <module>guide-liberty-deep-dive-gradle</module>
         <module>guide-maven-intro</module>
         <module>guide-maven-multimodules</module>
         <module>guide-microprofile-config</module>
