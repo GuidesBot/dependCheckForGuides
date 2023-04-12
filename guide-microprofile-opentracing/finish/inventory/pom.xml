@@ -16,7 +16,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <properties>
         <!-- Plugins -->
-        <version.exec-maven-plugin>1.6.0</version.exec-maven-plugin>
+        <version.exec-maven-plugin>3.1.0</version.exec-maven-plugin>
     </properties>
 
     <dependencies>
