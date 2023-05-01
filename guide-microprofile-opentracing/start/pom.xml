@@ -20,7 +20,7 @@
         <!-- Plugins -->
         <version.maven-war-plugin>3.2.3</version.maven-war-plugin>
         <version.download-maven-plugin>1.5.1</version.download-maven-plugin>
-        <version.maven-surefire-plugin>3.0.0-M4</version.maven-surefire-plugin>
+        <version.maven-surefire-plugin>3.0.0</version.maven-surefire-plugin>
         <version.maven-failsafe-plugin>3.0.0-M4</version.maven-failsafe-plugin>
         <!-- OpenLiberty runtime -->
         <version.openliberty-runtime>RELEASE</version.openliberty-runtime>
