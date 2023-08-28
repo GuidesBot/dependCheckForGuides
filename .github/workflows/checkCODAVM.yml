@@ -11,9 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: get today
-        run: TODAY=date +'%m/%d/%Y'
+        run: |
+          export TODAY=`date +'%m/%d/%Y'`
       - name: get issue body
         run: |
+          echo $TODAY
           curl -s -L \
                -H "Accept: application/vnd.github+json" \
                -H "Authorization: Bearer ${{ secrets.MY_TOKEN }}" \
