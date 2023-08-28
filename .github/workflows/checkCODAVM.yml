@@ -21,7 +21,7 @@ jobs:
             https://api.github.com/repos/GuidesBot/dependCheckForGuides/issues/876 \
             | grep body | awk -F '"' '/body/ {print $4}'`
           echo $BODY
-          if [ $TODAY = $BODY ]]; then
+          if [ $TODAY = $BODY ]; then
             echo "CODA VM is running"
           else
             echo "CODA VM is not running"
