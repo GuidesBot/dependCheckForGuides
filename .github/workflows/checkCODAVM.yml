@@ -1,4 +1,4 @@
-pname: Check CODA VM
+name: Check CODA VM
 
 on:
   workflow_dispatch:
