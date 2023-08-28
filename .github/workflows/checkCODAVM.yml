@@ -26,7 +26,7 @@ jobs:
             echo "CODA VM is running"
           else
             echo "CODA VM is not running"
-            export MESSAGE={\"body\":\"\@gkwan-ibm CODA VM is down at `echo $TODAY`!\"}
+            MESSAGE={\"body\":\"\@gkwan-ibm CODA VM is down at `echo $TODAY`!\"}
             curl -L \
               -X POST \
               -H "Accept: application/vnd.github+json" \
