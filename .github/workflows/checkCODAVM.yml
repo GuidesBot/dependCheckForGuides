@@ -14,9 +14,18 @@ jobs:
         run: |
           export TODAY=`date +'%m/%d/%Y'`
           echo $TODAY
-          curl -s -L \
+          BODY=`curl -s -L \
                -H "Accept: application/vnd.github+json" \
                -H "Authorization: Bearer ${{ secrets.MY_TOKEN }}" \
                -H "X-GitHub-Api-Version: 2022-11-28" \
-               https://api.github.com/repos/GuidesBot/dependCheckForGuides/issues/876 | grep body
+               https://api.github.com/repos/GuidesBot/dependCheckForGuides/issues/876 \
+               | grep body | awk -F '"' '/body/ {print $4}'`
+          echo $BODY
+          if [ $TODAY = $BODY ]
+          then
+            echo "CODA VM is running"
+          else
+            echo "CODA VM is not running"
+          fi
+               
   
