@@ -1,0 +1,22 @@
+name: Check CODA VM
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 6 AM UTC or 1 AM EST
+    - cron: 0 6 * * *
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get today
+        run: TODAY=date +'%m/%d/%Y'
+      - name: get issue body
+        run: |
+          curl -s -L \
+               -H "Accept: application/vnd.github+json" \
+               -H "Authorization: Bearer $MY_TOKEN" \
+               -H "X-GitHub-Api-Version: 2022-11-28" \
+               https://api.github.com/repos/GuidesBot/dependCheckForGuides/issues/876 | grep body
+  
