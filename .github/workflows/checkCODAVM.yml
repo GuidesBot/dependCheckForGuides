@@ -3,8 +3,8 @@ name: Check CODA VM
 on:
   workflow_dispatch:
   schedule:
-    # 6 AM UTC or 1 AM EST
-    - cron: 0 6 * * *
+    # 12 PM UTC or 7 AM EST
+    - cron: 0 12 * * *
 
 jobs:
   check:
