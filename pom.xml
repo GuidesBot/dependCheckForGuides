@@ -51,6 +51,7 @@
         <module>guide-microprofile-reactive-messaging-rest-integration</module>
         <module>guide-microprofile-rest-client</module>
         <module>guide-microprofile-rest-client-async</module>
+        <module>guide-microprofile-telemetry-jaeger</module>
         <module>guide-microshed-testing</module>
         <module>guide-mongodb-intro</module>
         <module>guide-okd</module>

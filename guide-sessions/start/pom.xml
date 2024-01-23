@@ -38,7 +38,7 @@
         <dependency>
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
-            <version>5.3.1</version>
+            <version>5.3.0</version>
             <scope>test</scope>
         </dependency>
         
@@ -83,7 +83,7 @@
             <plugin>
                 <groupId>io.openliberty.tools</groupId>
                 <artifactId>liberty-maven-plugin</artifactId>
-                <version>3.7.1</version>
+                <version>3.8.2</version>
                 <configuration>
                     <!-- Copy the hazelcast library -->
                     <copyDependencies>
@@ -92,7 +92,7 @@
                             <dependency>
                                 <groupId>com.hazelcast</groupId>
                                 <artifactId>hazelcast</artifactId>
-                                <version>5.1.1</version>
+                                <version>5.3.0</version>
                             </dependency>
                         </dependencyGroup>
                     </copyDependencies>
