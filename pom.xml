@@ -44,8 +44,6 @@
         <module>guide-microprofile-jwt</module>
         <module>guide-microprofile-metrics</module>
         <module>guide-microprofile-openapi</module>
-        <module>guide-microprofile-opentracing</module>
-        <module>guide-microprofile-opentracing-jaeger</module>
         <module>guide-microprofile-reactive-messaging</module>
         <module>guide-microprofile-reactive-messaging-acknowledgment</module>
         <module>guide-microprofile-reactive-messaging-rest-integration</module>
@@ -54,7 +52,6 @@
         <module>guide-microprofile-telemetry-jaeger</module>
         <module>guide-microshed-testing</module>
         <module>guide-mongodb-intro</module>
-        <module>guide-okd</module>
         <module>guide-openliberty-operator-intro</module>
         <module>guide-openliberty-operator-openshift</module>
         <module>guide-openshift-codeready-containers</module>
