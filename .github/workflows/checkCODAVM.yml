@@ -25,7 +25,7 @@ jobs:
             echo "CODA VM is running"
           else
             echo "CODA VM is not running"
-            MESSAGE='{"body":"@gkwan-ibm and @shin19991207, CODA VM is down on '$TODAY'!"}'
+            MESSAGE='{"body":"@gkwan-ibm, @shin19991207, and @SiaaG-dev, CODA VM is down on '$TODAY'!"}'
             echo "$MESSAGE"
             curl -L \
               -X POST \
