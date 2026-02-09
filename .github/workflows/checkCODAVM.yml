@@ -1,10 +1,11 @@
 name: Check CODA VM
 
 on:
+  push:
   workflow_dispatch:
   schedule:
     # 12 PM UTC or 7 AM EST
-    - cron: 35 14 * * *
+    - cron: 0 12 * * *
 
 jobs:
   check:
