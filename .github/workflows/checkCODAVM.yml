@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 12 PM UTC or 7 AM EST
-    - cron: 0 12 * * *
+    - cron: 35 14 * * *
 
 jobs:
   check:
