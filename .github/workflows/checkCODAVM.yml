@@ -1,7 +1,6 @@
 name: Check CODA VM
 
 on:
-  push:
   workflow_dispatch:
   schedule:
     # 12 PM UTC or 7 AM EST
